@@ -149,7 +149,7 @@ class EmailSubscriptionController
             // --- EMAIL CONTENT (Improved Design) ---
 
             $mail->isHTML(true);
-            $mail->Subject = 'Subscription Confirmation - Broadway Commissary';
+            $mail->Subject = 'Subscription Confirmation - Lakeland Commissary';
 
             // Heredoc para el cuerpo HTML mejorado
             $mail->Body = <<<HTML
@@ -164,12 +164,12 @@ class EmailSubscriptionController
                     <div style='max-width: 600px; margin: 20px auto; background-color: #ffffff; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); border-top: 5px solid #ffc107;'>
                         
                         <div style='padding: 25px 30px; text-align: center;'>
-                            <h2 style='margin: 0; color: #333333; font-size: 24px;'>&#9998; Welcome to Broadway Commissary!</h2>
+                            <h2 style='margin: 0; color: #333333; font-size: 24px;'>&#9998; Welcome to Lakeland Commissary!</h2>
                         </div>
                         
                         <div style='padding: 0 30px 20px 30px;'>
                             <p style='font-size: 16px; color: #555555;'>
-                                Thank you for subscribing to **Broadway Commissary** notifications. You will now receive our latest updates directly in your inbox.
+                                Thank you for subscribing to **Lakeland Commissary** notifications. You will now receive our latest updates directly in your inbox.
                             </p>
 
                             <div style='margin: 30px 0; padding: 15px; border: 1px solid #ffc107; background-color: #fffbe6; border-radius: 4px; text-align: center;'>
@@ -192,7 +192,7 @@ class EmailSubscriptionController
                         <div style='padding: 15px 30px; border-top: 1px solid #eeeeee; text-align: center; background-color: #f7f7f7; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;'>
                             <p style='margin: 0; color: #999999; font-size: 11px;'>
                                 Kind regards,<br>
-                                The Broadway Commissary Team
+                                The Lakeland Commissary Team
                             </p>
                         </div>
                         
@@ -203,7 +203,7 @@ class EmailSubscriptionController
             HTML;
 
             // Versión de texto plano
-            $mail->AltBody = "Thank you for subscribing to Broadway Commissary notifications.\n\nTo unsubscribe, please visit the following link: {$unsubscribeUrl}";
+            $mail->AltBody = "Thank you for subscribing to Lakeland Commissary notifications.\n\nTo unsubscribe, please visit the following link: {$unsubscribeUrl}";
 
             return $mail->send();
         } catch (Exception $e) {

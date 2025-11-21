@@ -236,7 +236,7 @@ class ContactFormController
 
             // Content
             $mail->isHTML(true);
-            $mail->Subject = 'We confirm receipt of your message - Broadway Commissary';
+            $mail->Subject = 'We confirm receipt of your message - Lakeland Commissary';
             $mail->Body = self::getConfirmationTemplate($submission);
             $mail->AltBody = 'Thank you for contacting us. Your message has been received.';
 
@@ -386,7 +386,7 @@ class ContactFormController
                         <div style='padding: 15px 30px; border-top: 1px solid #eeeeee; text-align: center; background-color: #f7f7f7; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;'>
                             <p style='margin: 0; color: #888888; font-size: 12px;'>
                                 Kind regards,<br>
-                                <strong style='color: #333333;'>Broadway Commissary</strong>
+                                <strong style='color: #333333;'>Lakeland Commissary</strong>
                             </p>
                         </div>
                         

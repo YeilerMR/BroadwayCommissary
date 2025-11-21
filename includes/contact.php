@@ -122,8 +122,8 @@
                                         </div>
                                         <div>
                                             <h5 class="font-semibold text-gray-900 mb-1">Email</h5>
-                                            <a href="mailto:info@broadwaycommissary.com" class="text-primary hover:text-blue-600 transition-colors">
-                                                info@broadwaycommissary.com
+                                            <a href="mailto:info@lakelandcommissary.com" class="text-primary hover:text-blue-600 transition-colors">
+                                                info@lakelandcommissary.com
                                             </a>
                                         </div>
                                     </div>

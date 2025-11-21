@@ -12,13 +12,13 @@ define('MAIL_ENCRYPTION', 'tls');
 define('MAIL_USERNAME', 'adbvtest@gmail.com'); // Update with your email
 define('MAIL_PASSWORD', 'hymk bvzd tnbu akrb'); // Use app-specific password for Gmail
 define('MAIL_FROM_ADDRESS', 'adbvtest@gmail.com');
-define('MAIL_FROM_NAME', 'Broadway Commissary');
+define('MAIL_FROM_NAME', 'Lakeland Commissary');
 
 // Database configuration (for future use)
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', 'danielbv0415');
-define('DB_NAME', 'broadway_commissary');
+define('DB_NAME', 'Lakeland Commissary');
 
 // Application settings
 define('APP_URL', 'http://localhost/BroadwayCommissary');

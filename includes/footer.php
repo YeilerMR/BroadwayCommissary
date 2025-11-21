@@ -1,9 +1,13 @@
+<?php
+    $year = date("Y");
+?>
+
 <footer class="bg-muted border-t border-border py-12">
     <div class="container mx-auto px-4">
         <div class="grid md:grid-cols-4 gap-8 mb-8">
             <div>
                 <a href="/"
-                    class="text-xl font-bold text-primary hover:text-primary/90 transition-colors block mb-4">Broadway Commissary</a>
+                    class="text-xl font-bold text-primary hover:text-primary/90 transition-colors block mb-4">Lakeland Commissary</a>
                 <p class="text-sm text-muted-foreground leading-relaxed">Empowering food entrepreneurs in
                     Central Florida since 2017.</p>
             </div>
@@ -81,7 +85,7 @@
             </div>
         </div>
         <div class="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-            <p>©2026 Broadway Commissary. All rights reserved.</p>
+            <p>©<?php echo $year ?> Lakeland Commissary. All rights reserved.</p>
         </div>
     </div>
 </footer>
