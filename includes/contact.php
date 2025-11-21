@@ -1,0 +1,246 @@
+<section id="contact" class="py-20 md:py-28">
+    <div class="container mx-auto px-4">
+        <div>
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-5xl font-bold text-balance mb-4">Get in Touch</h2>
+                <p class="text-lg text-muted-foreground leading-relaxed">Ready to start your food business
+                    journey? Contact us today.</p>
+            </div>
+            <section class="py-20 bg-white">
+                <div class="max-w-7xl mx-auto px-6">
+                    <div class="grid lg:grid-cols-3 gap-8">
+                        <!-- Contact Information -->
+                        <div class="lg:col-span-1">
+                            <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-8">
+                                <h3 class="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
+
+                                <div class="space-y-6">
+                                    <!-- Email -->
+                                    <div class="flex items-start">
+                                        <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
+                                            <i class="fas fa-envelope text-primary  text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-semibold text-gray-900 mb-1">Email</h5>
+                                            <a href="mailto:info@broadwaycommissary.com" class="text-primary hover:text-blue-600 transition-colors">
+                                                info@broadwaycommissary.com
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Phone -->
+                                    <div class="flex items-start">
+                                        <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
+                                            <i class="fas fa-phone text-primary text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-semibold text-gray-900 mb-1">Phone</h5>
+                                            <a href="tel:+1234567890" class="text-primary hover:text-blue-600 transition-colors">
+                                                (123) 456-7890
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Website -->
+                                    <div class="flex items-start">
+                                        <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
+                                            <i class="fas fa-globe text-primary text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-semibold text-gray-900 mb-1">Website</h5>
+                                            <a href="http://dreamsgonemobile.com/" target="_blank" class="text-primary hover:text-blue-600 transition-colors">
+                                                dreamsgonemobile.com
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Contact Person -->
+                                    <div class="flex items-start">
+                                        <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
+                                            <i class="fas fa-user text-primary text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-semibold text-gray-900 mb-1">Contact Person</h5>
+                                            <p class="text-gray-600">
+                                                <strong>Mizrah Sharp</strong><br>
+                                                Founder & Lead Consultant
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Response Time -->
+                                    <div class="flex items-start">
+                                        <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
+                                            <i class="fas fa-clock text-primary text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-semibold text-gray-900 mb-1">Response Time</h5>
+                                            <p class="text-gray-600">We typically respond within 24 hours of your inquiry.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Why Choose Us Card -->
+                                <div class="mt-8 p-6 bg-primary bg-opacity-5 rounded-xl border border-primary border-opacity-20">
+                                    <div class="flex items-center mb-3">
+                                        <i class="fas fa-star text-primary mr-2"></i>
+                                        <h6 class="font-semibold text-gray-900">Why Choose Us?</h6>
+                                    </div>
+                                    <p class="text-sm text-gray-600">
+                                        Expert Florida licensing guidance • Fast turnaround • Personalized service • Ongoing support
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contact Form -->
+                        <div class="lg:col-span-2">
+                            <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-8">
+                                <h3 class="text-2xl font-bold text-gray-900 mb-6">Send Us a Message</h3>
+                                <form id="contactForm" class="space-y-6">
+                                    <!-- Name & Email -->
+                                    <div class="grid md:grid-cols-2 gap-6">
+                                        <div>
+                                            <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Full Name *</label>
+                                            <input type="text" id="name" name="name"
+                                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors field-input">
+                                        </div>
+                                        <div>
+                                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email Address *</label>
+                                            <input type="email" id="email" name="email"
+                                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors field-input">
+                                        </div>
+                                    </div>
+
+                                    <!-- Phone & Business Type -->
+                                    <div class="grid md:grid-cols-2 gap-6">
+                                        <div>
+                                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
+                                            <input type="tel" id="phone" name="phone"
+                                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors field-input">
+                                        </div>
+                                        <div>
+                                            <label for="businessType" class="block text-sm font-medium text-gray-700 mb-2">Business Type</label>
+                                            <select id="businessType" name="businessType"
+                                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors field-input">
+                                                <option value="">Select a business type...</option>
+                                                <option value="catering">Catering Company</option>
+                                                <option value="foodtruck">Food Truck</option>
+                                                <option value="restaurant">Restaurant</option>
+                                                <option value="bakery">Bakery</option>
+                                                <option value="commissary">Commissary Kitchen</option>
+                                                <option value="other">Other Food Business</option>
+                                                <option value="nonFood">Non-Food Business</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <!-- Subject -->
+                                    <div>
+                                        <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Subject *</label>
+                                        <input type="text" id="subject" name="subject"
+                                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors field-input">
+                                    </div>
+
+                                    <!-- Message -->
+                                    <div>
+                                        <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message *</label>
+                                        <textarea id="message" name="message" rows="5"
+                                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors field-input"></textarea>
+                                    </div>
+
+                                    <!-- Services Interested In -->
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-3">Services Interested In</label>
+                                        <div class="grid md:grid-cols-2 gap-4">
+                                            <div class="space-y-3">
+                                                <label class="flex items-center">
+                                                    <input type="checkbox" name="services[]" value="licensing" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
+                                                    <span class="text-gray-700">Business Licensing</span>
+                                                </label>
+                                                <label class="flex items-center">
+                                                    <input type="checkbox" name="services[]" value="commissary" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
+                                                    <span class="text-gray-700">Commissary Kitchen</span>
+                                                </label>
+                                                <label class="flex items-center">
+                                                    <input type="checkbox" name="services[]" value="catering" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
+                                                    <span class="text-gray-700">Catering Services</span>
+                                                </label>
+                                            </div>
+                                            <div class="space-y-3">
+                                                <label class="flex items-center">
+                                                    <input type="checkbox" name="services[]" value="foodtruck" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
+                                                    <span class="text-gray-700">Food Truck Rental</span>
+                                                </label>
+                                                <label class="flex items-center">
+                                                    <input type="checkbox" name="services[]" value="certification" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
+                                                    <span class="text-gray-700">ServSafe Certification</span>
+                                                </label>
+                                                <label class="flex items-center">
+                                                    <input type="checkbox" name="services[]" value="other" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
+                                                    <span class="text-gray-700">Other Services</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Submit Button -->
+                                    <button type="submit"
+                                        class="w-full bg-primary text-white py-4 px-6 rounded-lg hover:bg-blue-600 transition-colors font-semibold text-lg flex items-center justify-center">
+                                        <i class="fas fa-paper-plane mr-3"></i>
+                                        Send Message
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+
+<script>
+    async function submitContactForm(formData) {
+        try {
+            const response = await fetch('http://localhost/BroadwayCommissary/api/contact/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            });
+
+            const data = await response.json();
+
+            if (data.success) {
+                console.log('Form submitted successfully!');
+                // Clear form or show success message
+            } else {
+                console.error('Validation errors:', data.errors);
+            }
+        } catch (error) {
+            console.error('Request failed:', error);
+        }
+    }
+
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const form = e.target;
+        const formData = new FormData(form);
+
+        const data = {
+            name: formData.get('name'),
+            email: formData.get('email'),
+            phone: formData.get('phone'),
+            businessType: formData.get('businessType'),
+            subject: formData.get('subject'),
+            message: formData.get('message'),
+            services: formData.getAll('services[]'),
+            ip_address: window.location.hostname
+        };
+
+        submitContactForm(data);
+    });
+</script>
