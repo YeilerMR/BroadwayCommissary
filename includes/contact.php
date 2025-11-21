@@ -9,90 +9,6 @@
             <section class="py-20 bg-white">
                 <div class="max-w-7xl mx-auto px-6">
                     <div class="grid lg:grid-cols-3 gap-8">
-                        <!-- Contact Information -->
-                        <div class="lg:col-span-1">
-                            <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-8">
-                                <h3 class="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
-
-                                <div class="space-y-6">
-                                    <!-- Email -->
-                                    <div class="flex items-start">
-                                        <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
-                                            <i class="fas fa-envelope text-primary  text-lg"></i>
-                                        </div>
-                                        <div>
-                                            <h5 class="font-semibold text-gray-900 mb-1">Email</h5>
-                                            <a href="mailto:info@broadwaycommissary.com" class="text-primary hover:text-blue-600 transition-colors">
-                                                info@broadwaycommissary.com
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <!-- Phone -->
-                                    <div class="flex items-start">
-                                        <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
-                                            <i class="fas fa-phone text-primary text-lg"></i>
-                                        </div>
-                                        <div>
-                                            <h5 class="font-semibold text-gray-900 mb-1">Phone</h5>
-                                            <a href="tel:+1234567890" class="text-primary hover:text-blue-600 transition-colors">
-                                                (123) 456-7890
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <!-- Website -->
-                                    <div class="flex items-start">
-                                        <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
-                                            <i class="fas fa-globe text-primary text-lg"></i>
-                                        </div>
-                                        <div>
-                                            <h5 class="font-semibold text-gray-900 mb-1">Website</h5>
-                                            <a href="http://dreamsgonemobile.com/" target="_blank" class="text-primary hover:text-blue-600 transition-colors">
-                                                dreamsgonemobile.com
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <!-- Contact Person -->
-                                    <div class="flex items-start">
-                                        <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
-                                            <i class="fas fa-user text-primary text-lg"></i>
-                                        </div>
-                                        <div>
-                                            <h5 class="font-semibold text-gray-900 mb-1">Contact Person</h5>
-                                            <p class="text-gray-600">
-                                                <strong>Mizrah Sharp</strong><br>
-                                                Founder & Lead Consultant
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <!-- Response Time -->
-                                    <div class="flex items-start">
-                                        <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
-                                            <i class="fas fa-clock text-primary text-lg"></i>
-                                        </div>
-                                        <div>
-                                            <h5 class="font-semibold text-gray-900 mb-1">Response Time</h5>
-                                            <p class="text-gray-600">We typically respond within 24 hours of your inquiry.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Why Choose Us Card -->
-                                <div class="mt-8 p-6 bg-primary bg-opacity-5 rounded-xl border border-primary border-opacity-20">
-                                    <div class="flex items-center mb-3">
-                                        <i class="fas fa-star text-primary mr-2"></i>
-                                        <h6 class="font-semibold text-gray-900">Why Choose Us?</h6>
-                                    </div>
-                                    <p class="text-sm text-gray-600">
-                                        Expert Florida licensing guidance • Fast turnaround • Personalized service • Ongoing support
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
                         <!-- Contact Form -->
                         <div class="lg:col-span-2">
                             <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-8">
@@ -193,6 +109,91 @@
                                 </form>
                             </div>
                         </div>
+                        <!-- Contact Information -->
+                        <div class="lg:col-span-1">
+                            <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-8">
+                                <h3 class="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
+
+                                <div class="space-y-6">
+                                    <!-- Email -->
+                                    <div class="flex items-start">
+                                        <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
+                                            <i class="fas fa-envelope text-primary  text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-semibold text-gray-900 mb-1">Email</h5>
+                                            <a href="mailto:info@broadwaycommissary.com" class="text-primary hover:text-blue-600 transition-colors">
+                                                info@broadwaycommissary.com
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Phone -->
+                                    <div class="flex items-start">
+                                        <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
+                                            <i class="fas fa-phone text-primary text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-semibold text-gray-900 mb-1">Phone</h5>
+                                            <a href="tel:+1234567890" class="text-primary hover:text-blue-600 transition-colors">
+                                                (123) 456-7890
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Website -->
+                                    <div class="flex items-start">
+                                        <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
+                                            <i class="fas fa-globe text-primary text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-semibold text-gray-900 mb-1">Website</h5>
+                                            <a href="http://dreamsgonemobile.com/" target="_blank" class="text-primary hover:text-blue-600 transition-colors">
+                                                dreamsgonemobile.com
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Contact Person -->
+                                    <div class="flex items-start">
+                                        <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
+                                            <i class="fas fa-user text-primary text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-semibold text-gray-900 mb-1">Contact Person</h5>
+                                            <p class="text-gray-600">
+                                                <strong>Mizrah Sharp</strong><br>
+                                                Founder & Lead Consultant
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Response Time -->
+                                    <div class="flex items-start">
+                                        <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
+                                            <i class="fas fa-clock text-primary text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-semibold text-gray-900 mb-1">Response Time</h5>
+                                            <p class="text-gray-600">We typically respond within 24 hours of your inquiry.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Why Choose Us Card -->
+                                <div class="mt-8 p-6 bg-primary bg-opacity-5 rounded-xl border border-primary border-opacity-20">
+                                    <div class="flex items-center mb-3">
+                                        <i class="fas fa-star text-primary mr-2"></i>
+                                        <h6 class="font-semibold text-gray-900">Why Choose Us?</h6>
+                                    </div>
+                                    <p class="text-sm text-gray-600">
+                                        Expert Florida licensing guidance • Fast turnaround • Personalized service • Ongoing support
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </section>
