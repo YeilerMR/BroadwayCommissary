@@ -10,7 +10,7 @@
                 class="bg-card text-card-foreground gap-6 rounded-xl border shadow-sm overflow-hidden hover:shadow-lg transition-shadow flex flex-col">
                 <div class="relative h-48 bg-muted rounded-t-lg overflow-hidden">
                     <img
-                        src="/BroadwayCommissary/assets/img/catering-event-planning-food-service.jpg" alt="Catering Services"
+                        src="/assets/img/catering-event-planning-food-service.jpg" alt="Catering Services"
                         class="w-full h-full object-cover" />
                 </div>
                 <div data-slot="card-content" class="p-6 flex flex-col flex-1">
@@ -29,7 +29,7 @@
                 class="bg-card text-card-foreground gap-6 rounded-xl border shadow-sm overflow-hidden hover:shadow-lg transition-shadow flex flex-col">
                 <div class="relative h-48 bg-muted rounded-t-lg overflow-hidden">
                     <img
-                        src="/BroadwayCommissary/assets/img/financial-consulting-business-planning.jpg" alt="Financial Services"
+                        src="/assets/img/financial-consulting-business-planning.jpg" alt="Financial Services"
                         class="w-full h-full object-cover" />
                 </div>
                 <div data-slot="card-content" class="p-6 flex flex-col flex-1">
@@ -47,7 +47,7 @@
                 class="bg-card text-card-foreground gap-6 rounded-xl border shadow-sm overflow-hidden hover:shadow-lg transition-shadow flex flex-col">
                 <div class="relative h-48 bg-muted rounded-t-lg overflow-hidden">
                     <img
-                        src="/BroadwayCommissary/assets/img/food-truck-rental-mobile-kitchen.jpg" alt="Food Truck Rental"
+                        src="/assets/img/food-truck-rental-mobile-kitchen.jpg" alt="Food Truck Rental"
                         class="w-full h-full object-cover" />
                 </div>
                 <div data-slot="card-content" class="p-6 flex flex-col flex-1">
@@ -65,7 +65,7 @@
                 class="bg-card text-card-foreground gap-6 rounded-xl border shadow-sm overflow-hidden hover:shadow-lg transition-shadow flex flex-col">
                 <div class="relative h-48 bg-muted rounded-t-lg overflow-hidden">
                     <img
-                        src="/BroadwayCommissary/assets/img/commercial-kitchen-commissary-facility.jpg" alt="Commissary Kitchen"
+                        src="/assets/img/commercial-kitchen-commissary-facility.jpg" alt="Commissary Kitchen"
                         class="w-full h-full object-cover" />
                 </div>
                 <div data-slot="card-content" class="p-6 flex flex-col flex-1">

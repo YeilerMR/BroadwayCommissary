@@ -29,14 +29,14 @@
             </div>
             <div class="relative h-[400px] rounded-lg overflow-hidden bg-muted">
                 <img
-                    src="/BroadwayCommissary/assets/img/professional-commercial-kitchen-modern.jpg" alt="Commercial Kitchen"
+                    src="/assets/img/professional-commercial-kitchen-modern.jpg" alt="Commercial Kitchen"
                     class="w-full h-full object-cover" />
             </div>
         </div>
         <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
             <div class="relative h-[400px] rounded-lg overflow-hidden bg-muted">
                 <img
-                    src="/BroadwayCommissary/assets/img/food-truck-catering-event.jpg" alt="Catering Services"
+                    src="/assets/img/food-truck-catering-event.jpg" alt="Catering Services"
                     class="w-full h-full object-cover" />
             </div>
             <div class="">
