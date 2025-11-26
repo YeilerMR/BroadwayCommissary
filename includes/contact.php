@@ -71,35 +71,60 @@
                                         <div class="grid md:grid-cols-2 gap-4">
                                             <div class="space-y-3">
                                                 <label class="flex items-center">
-                                                    <input type="checkbox" name="services[]" value="licensing" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
-                                                    <span class="text-gray-700">Business Licensing</span>
-                                                </label>
-                                                <label class="flex items-center">
-                                                    <input type="checkbox" name="services[]" value="commissary" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
+                                                    <input type="checkbox" name="services[]" value="Commissary Kitchen" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
                                                     <span class="text-gray-700">Commissary Kitchen</span>
                                                 </label>
                                                 <label class="flex items-center">
-                                                    <input type="checkbox" name="services[]" value="catering" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
-                                                    <span class="text-gray-700">Catering Services</span>
+                                                    <input type="checkbox" name="services[]" value="Food Manager's Exam" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
+                                                    <span class="text-gray-700">Food Manager's Exam</span>
+                                                </label>
+                                                <label class="flex items-center">
+                                                    <input type="checkbox" name="services[]" value="LLC/EIN" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
+                                                    <span class="text-gray-700">LLC/EIN</span>
+                                                </label>
+                                                <label class="flex items-center">
+                                                    <input type="checkbox" name="services[]" value="BTR Registration" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
+                                                    <span class="text-gray-700">BTR Registration</span>
                                                 </label>
                                             </div>
                                             <div class="space-y-3">
                                                 <label class="flex items-center">
-                                                    <input type="checkbox" name="services[]" value="foodtruck" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
-                                                    <span class="text-gray-700">Food Truck Rental</span>
+                                                    <input type="checkbox" name="services[]" value="Catering Services" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
+                                                    <span class="text-gray-700">Catering Services</span>
                                                 </label>
                                                 <label class="flex items-center">
-                                                    <input type="checkbox" name="services[]" value="certification" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
-                                                    <span class="text-gray-700">ServSafe Certification</span>
+                                                    <input type="checkbox" name="services[]" value="DBPR/FDACS License" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
+                                                    <span class="text-gray-700">DBPR/FDACS License</span>
                                                 </label>
+
                                                 <label class="flex items-center">
-                                                    <input type="checkbox" name="services[]" value="other" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
+                                                    <input type="checkbox" name="services[]" value="Sales Tax Registration" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
+                                                    <span class="text-gray-700">Sales Tax Registration</span>
+                                                </label>
+
+                                                <label class="flex items-center">
+                                                    <input type="checkbox" name="services[]" value="Other Services" class="rounded border-gray-300 text-primary focus:ring-primary mr-3">
                                                     <span class="text-gray-700">Other Services</span>
                                                 </label>
                                             </div>
+
                                         </div>
                                     </div>
 
+                                    <div style="margin-bottom: 2rem;">
+                                        <label for="findUs" class="block text-sm font-medium text-gray-700 mb-2">How did you find us? *</label>
+                                        <select class="form-select" id="findUs" name="findUs">
+                                            <option value="" selected>-- Select --</option>
+                                            <option value="Google Search">Google Search</option>
+                                            <option value="Google Maps">Google Maps</option>
+                                            <option value="Apple Maps">Apple Maps</option>
+                                            <option value="Facebook">Facebook</option>
+                                            <option value="Instagram">Instagram</option>
+                                            <option value="Referral">Referral</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+
+                                    </div>
                                     <!-- Submit Button -->
                                     <button type="submit"
                                         class="w-full bg-primary text-white py-4 px-6 rounded-lg hover:bg-blue-600 transition-colors font-semibold text-lg flex items-center justify-center">
