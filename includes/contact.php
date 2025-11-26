@@ -143,7 +143,7 @@
                                     <!-- Email -->
                                     <div class="flex items-start">
                                         <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
-                                            <i class="fas fa-envelope text-primary  text-lg"></i>
+                                            <i class="fas fa-envelope text-primary text-lg"></i>
                                         </div>
                                         <div>
                                             <h5 class="font-semibold text-gray-900 mb-1">Email</h5>
@@ -173,22 +173,34 @@
                                         </div>
                                         <div>
                                             <h5 class="font-semibold text-gray-900 mb-1">Website</h5>
-                                            <a href="http://dreamsgonemobile.com/" target="_blank" class="text-primary hover:text-blue-600 transition-colors">
-                                                dreamsgonemobile.com
+                                            <a href="http://lakelandcommissary.com/" target="_blank" class="text-primary hover:text-blue-600 transition-colors">
+                                                lakelandcommissary.com
                                             </a>
                                         </div>
                                     </div>
+                                    <div class="flex items-start">
+                                        <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
+                                            <i class="fas fa-clock text-primary text-lg"></i>
+                                        </div>
+                                        <div>
 
+                                            <h5 class="font-semibold text-gray-900 mb-1">Response Time</h5>
+                                            <p class="text-gray-600">We typically respond within <br>24 hours of your inquiry.</p>
+
+                                        </div>
+                                    </div>
+
+                                    <hr>
                                     <!-- Contact Person -->
                                     <div class="flex items-start">
                                         <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
                                             <i class="fas fa-user text-primary text-lg"></i>
                                         </div>
                                         <div>
-                                            <h5 class="font-semibold text-gray-900 mb-1">Contact Person</h5>
+                                            <h5 class="font-semibold text-gray-900 mb-1">Location</h5>
                                             <p class="text-gray-600">
-                                                <strong>Mizrah Sharp</strong><br>
-                                                Founder & Lead Consultant
+                                                <strong>927 Pisgah Pl</strong><br>
+                                                Lakeland, FL 33801
                                             </p>
                                         </div>
                                     </div>
@@ -198,10 +210,27 @@
                                         <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
                                             <i class="fas fa-clock text-primary text-lg"></i>
                                         </div>
+
                                         <div>
-                                            <h5 class="font-semibold text-gray-900 mb-1">Response Time</h5>
-                                            <p class="text-gray-600">We typically respond within 24 hours of your inquiry.</p>
+                                            <!-- <p class="text-gray-600"><strong>Office Hours:</strong></p> -->
+                                            <h5 class="font-semibold text-gray-900 mb-1">Office Hours:</h5>
+                                            <p class="text-gray-600">By Appointment Only</p>
+
                                         </div>
+
+                                    </div>
+                                    <div class="flex items-start">
+                                        <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-lg mr-4">
+                                            <i class="fas fa-clock text-primary text-lg"></i>
+                                        </div>
+
+                                        <div>
+                                            <!-- <p class="text-gray-600"><strong>Kitchen Hours:</strong></p> -->
+                                            <h5 class="font-semibold text-gray-900 mb-1">Kitchen Hours:</h5>
+                                            <p class="text-gray-600">24/7</p>
+
+                                        </div>
+
                                     </div>
                                 </div>
 
