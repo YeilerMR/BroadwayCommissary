@@ -1,5 +1,5 @@
 <?php
-    $year = date("Y");
+$year = date("Y");
 ?>
 
 <footer class="bg-muted border-t border-border py-12">
@@ -14,6 +14,8 @@
             <div>
                 <h4 class="font-semibold mb-4">Quick Links</h4>
                 <nav class="flex flex-col gap-2">
+                    <a href="#home"
+                        class="text-sm text-muted-foreground hover:text-primary transition-colors">Home</a>
                     <a href="#services"
                         class="text-sm text-muted-foreground hover:text-primary transition-colors">Services</a>
                     <a href="#about"
@@ -61,6 +63,50 @@
                         </svg>
                         <span class="sr-only">Twitter</span>
                     </a>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold mb-6">Services</h4>
+                <ul class="space-y-3">
+                    <li>
+                        <a
+                            href="service"
+                            class="text-sm text-muted-foreground hover:text-primary transition-colors">Commissary Kitchen</a>
+                    </li>
+                    <li>
+                        <a
+                            href="service"
+                            class="text-sm text-muted-foreground hover:text-primary transition-colors">Business Licensing</a>
+                    </li>
+                    <li>
+                        <a
+                            href="service"
+                            class="text-sm text-muted-foreground hover:text-primary transition-colors">Catering Services</a>
+                    </li>
+                    <li>
+                        <a
+                            href="service"
+                            class="text-sm text-muted-foreground hover:text-primary transition-colors">Food Truck Rental</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold mb-6">Contact Information</h4>
+                <div class="space-y-4">
+                    <div class="flex items-center">
+                        <i class="ri-phone-line mr-3 text-primary"></i>
+                        <span class="text-sm text-muted-foreground">(123) 456-7890</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="ri-mail-line mr-3 text-secondary"></i>
+                        <span class="text-sm text-muted-foreground">info@lakelandcommissary.com</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="ri-globe-line mr-3 text-secondary"></i>
+                        <a
+                            href="https://lakelandcommissary.com"
+                            class="text-sm text-muted-foreground hover:text-primary transition-colors">lakelandcommissary.com</a>
+                    </div>
                 </div>
             </div>
             <div>
