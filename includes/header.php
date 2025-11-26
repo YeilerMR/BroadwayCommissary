@@ -4,6 +4,9 @@
             Lakeland Commissary
         </a>
         <nav class="md:flex items-center gap-8">
+            <a href="#home" class="hover:text-primary transition-colors headerText">
+                Home
+            </a>
             <a href="#services" class="hover:text-primary transition-colors headerText">
                 Services
             </a>

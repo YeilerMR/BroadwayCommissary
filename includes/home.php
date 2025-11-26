@@ -1,4 +1,4 @@
-<section class="relative bg-muted/30 py-24 md:py-32 overflow-hidden">
+<section id="home" class="relative bg-muted/30 py-24 md:py-32 overflow-hidden">
     <div
         class="absolute inset-0 img-home bg-cover bg-center opacity-10">
     </div>
