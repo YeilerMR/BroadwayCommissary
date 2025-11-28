@@ -11,6 +11,24 @@ $year = date("Y");
                 <p class="text-sm text-muted-foreground leading-relaxed">Empowering food entrepreneurs in
                     Central Florida since 2017.</p>
 
+                <!-- CONTACT -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <i class="fas fa-phone text-muted-foreground text-sm"></i>
+                        <span class="text-sm text-muted-foreground">(123) 456-7890</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fas fa-envelope text-muted-foreground text-sm"></i>
+                        <span class="text-sm text-muted-foreground">info@lakelandcommissary.com</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fas fa-globe text-muted-foreground text-sm"></i>
+                        <a
+                            href="https://lakelandcommissary.com"
+                            class="text-sm text-muted-foreground hover:text-primary transition-colors">lakelandcommissary.com</a>
+                    </div>
+                </div>
+
                 <!-- SOCIAL -->
                 <div class="py-3 flex gap-4"><a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
                         class="text-muted-foreground hover:text-primary transition-colors">
@@ -48,24 +66,6 @@ $year = date("Y");
                         </svg>
                         <span class="sr-only">Twitter</span>
                     </a>
-                </div>
-
-                <!-- CONTACT -->
-                <div class="space-y-4">
-                    <div class="flex items-center gap-3">
-                        <i class="fas fa-phone text-muted-foreground text-sm"></i>
-                        <span class="text-sm text-muted-foreground">(123) 456-7890</span>
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <i class="fas fa-envelope text-muted-foreground text-sm"></i>
-                        <span class="text-sm text-muted-foreground">info@lakelandcommissary.com</span>
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <i class="fas fa-globe text-muted-foreground text-sm"></i>
-                        <a
-                            href="https://lakelandcommissary.com"
-                            class="text-sm text-muted-foreground hover:text-primary transition-colors">lakelandcommissary.com</a>
-                    </div>
                 </div>
             </div>
             <div>
