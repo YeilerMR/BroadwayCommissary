@@ -29,7 +29,7 @@
             </div>
             <div class="relative h-[400px] rounded-lg overflow-hidden bg-muted">
                 <img
-                    src="/assets/img/professional-commercial-kitchen-modern.jpg" alt="Commercial Kitchen"
+                    src="/assets/img/restaurant.jpg" alt="Commercial Kitchen"
                     class="w-full h-full object-cover" />
             </div>
         </div>
