@@ -8,8 +8,7 @@ $year = date("Y");
             <div>
                 <a href="/"
                     class="text-xl font-bold text-primary hover:text-primary/90 transition-colors block mb-4">Lakeland Commissary</a>
-                <p class="text-sm text-muted-foreground leading-relaxed">Empowering food entrepreneurs in
-                    Central Florida since 2017.</p>
+                <p class="text-sm text-muted-foreground leading-relaxed mb-3">Supporting Lakeland, Polk County, and Central Florida's food and beverage businesses with innovative solutions, expert guidance, and comprehensive support from A to Z.</p>
 
                 <!-- CONTACT -->
                 <div class="space-y-4">
