@@ -1,6 +1,6 @@
 <section id="home" class="relative bg-muted/10 py-24 md:py-32 overflow-hidden">
     <div
-        class="absolute inset-0 img-home bg-cover bg-center">
+        class="absolute inset-0 img-home bg-cover bg-center" style="background-color: #8e9191b3;">
     </div>
     <div class="container mx-auto px-4 relative z-10">
         <div class="max-w-3xl mx-auto text-center">
