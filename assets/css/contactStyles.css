@@ -294,3 +294,21 @@ form#contactForm .flex.items-center input {
     }
 
 }
+
+/* Home hero: increase brightness & contrast of the background image so it is easier to see */
+.img-home {
+    filter: brightness(1.08) contrast(1.06) saturate(1.08);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Utility: bg-muted/10 - a lighter overlay of the muted color (10% alpha) */
+.bg-muted\/10 {
+    background-color: var(--muted);
+}
+
+@supports (color: color-mix(in lab, red, red)) {
+    .bg-muted\/10 {
+        background-color: color-mix(in oklab, var(--muted) 10%, transparent);
+    }
+}
