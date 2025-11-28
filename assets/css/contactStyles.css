@@ -297,9 +297,18 @@ form#contactForm .flex.items-center input {
 
 /* Home hero: increase brightness & contrast of the background image so it is easier to see */
 .img-home {
-    filter: brightness(1.08) contrast(1.06) saturate(1.08);
+    filter: brightness(0.55) contrast(1.06) saturate(1.08);
     background-position: center;
     background-size: cover;
+    opacity: .9;
+}
+
+.tWhite {
+    color: #d9cbcb;
+}
+
+.pWhite {
+    color: #d7cfcf;
 }
 
 /* Utility: bg-muted/10 - a lighter overlay of the muted color (10% alpha) */
