@@ -49,23 +49,33 @@ $year = date("Y");
                 <ul class="space-y-3">
                     <li>
                         <a
-                            href="service"
+                            href="#service"
                             class="text-sm text-muted-foreground hover:text-primary transition-colors">Commissary Kitchen</a>
                     </li>
                     <li>
                         <a
-                            href="service"
+                            href="#service"
                             class="text-sm text-muted-foreground hover:text-primary transition-colors">Business Licensing</a>
                     </li>
                     <li>
                         <a
-                            href="service"
+                            href="#service"
+                            class="text-sm text-muted-foreground hover:text-primary transition-colors">Food Manager's Exam</a>
+                    </li>
+                    <li>
+                        <a
+                            href="#service"
                             class="text-sm text-muted-foreground hover:text-primary transition-colors">Catering Services</a>
                     </li>
                     <li>
                         <a
-                            href="service"
+                            href="#service"
                             class="text-sm text-muted-foreground hover:text-primary transition-colors">Food Truck Rental</a>
+                    </li>
+                    <li>
+                        <a
+                            href="#service"
+                            class="text-sm text-muted-foreground hover:text-primary transition-colors">Financial Assistance</a>
                     </li>
                 </ul>
             </div>
