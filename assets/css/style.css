@@ -127,8 +127,12 @@
 }
 
 
-.headerBG {
-  background-color: oklch(0.35 0.08 135);
+.headerBG, header.headerBG {
+  /* Updated header color per user request */
+  /* Fallback (hex) for browsers that don't support oklch */
+  background-color: #2abf95;
+  /* Preferred modern color format */
+  background-color: oklch(0.77 0.1 134.06 / 1);
 }
 
 .headerText {
