@@ -7,7 +7,9 @@ $year = date("Y");
         <div class="grid md:grid-cols-4 gap-8 mb-8">
             <div>
                 <a href="/"
-                    class="text-xl font-bold text-primary hover:text-primary/90 transition-colors block mb-4">Lakeland Commissary</a>
+                    class="text-xl font-bold text-primary hover:text-primary/90 transition-colors block mb-4">
+                    <img src="./assets/img/lakeland_commissary__1__720.png" style="width: 250px;" alt="Lakeland Commissary Logo">
+                </a>
                 <p class="text-sm text-muted-foreground leading-relaxed mb-3">Supporting Lakeland, Polk County, and Central Florida's food and beverage businesses with innovative solutions, expert guidance, and comprehensive support from A to Z.</p>
 
                 <!-- CONTACT -->
@@ -86,7 +88,7 @@ $year = date("Y");
                     </button>
                 </form>
                 <p class="text-xs text-muted-foreground mt-2">Get updates on new services and offers</p>
-                                <!-- SOCIAL -->
+                <!-- SOCIAL -->
                 <div class="py-3 flex gap-4"><a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
                         class="text-muted-foreground hover:text-primary transition-colors">
                         <svg
