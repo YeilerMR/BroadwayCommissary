@@ -13,10 +13,6 @@ $year = date("Y");
                 <!-- CONTACT -->
                 <div class="space-y-4">
                     <div class="flex items-center gap-3">
-                        <i class="fas fa-phone text-muted-foreground text-sm"></i>
-                        <span class="text-sm text-muted-foreground">(123) 456-7890</span>
-                    </div>
-                    <div class="flex items-center gap-3">
                         <i class="fas fa-envelope text-muted-foreground text-sm"></i>
                         <span class="text-sm text-muted-foreground">info@lakelandcommissary.com</span>
                     </div>
@@ -25,6 +21,10 @@ $year = date("Y");
                         <a
                             href="https://lakelandcommissary.com"
                             class="text-sm text-muted-foreground hover:text-primary transition-colors">lakelandcommissary.com</a>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fas fa-phone text-muted-foreground text-sm"></i>
+                        <span class="text-sm text-muted-foreground">(123) 456-7890</span>
                     </div>
                 </div>
 
