@@ -1,11 +1,10 @@
-<section id="home" class="relative bg-muted/30 py-24 md:py-32 overflow-hidden">
+<section id="home" class="relative bg-muted/10 py-24 md:py-32 overflow-hidden">
     <div
-        class="absolute inset-0 img-home bg-cover bg-center opacity-10">
+        class="absolute inset-0 img-home bg-cover bg-center">
     </div>
     <div class="container mx-auto px-4 relative z-10">
         <div class="max-w-3xl mx-auto text-center">
-            <h1 class="text-4xl md:text-6xl font-bold text-balance mb-6 text-foreground">Empowering Food
-                Entrepreneurs to Reach Their Full Potential</h1>
+            <h1 class="text-4xl md:text-6xl font-bold text-balance mb-6 text-foreground">Lakeland’s Commissary Kitchen: Your Recipe for Success</h1>
             <p class="text-xl text-muted-foreground leading-relaxed mb-8">Supporting Central Florida&#x27;s
                 food and beverage businesses with innovative solutions, expert guidance, and comprehensive
                 support for over 10 years.</p>
