@@ -72,7 +72,7 @@ section.relative.contact-hero-bg .relative.z-10 p {
 }
 
 .bg-white.rounded-2xl.shadow-lg.border.border-gray-100 i {
-    color: var(--primary);
+    color: oklch(0.35 0.08 135);
     font-size: 1rem;
 }
 
@@ -83,7 +83,7 @@ section.relative.contact-hero-bg .relative.z-10 p {
 }
 
 .bg-white.rounded-2xl.shadow-lg.border.border-gray-100 a {
-    color: var(--primary);
+    color: oklch(0.35 0.08 135);
     font-weight: 500;
     transition: color 0.3s ease;
 }
