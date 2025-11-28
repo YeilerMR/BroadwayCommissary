@@ -4,8 +4,8 @@
     </div>
     <div class="container mx-auto px-4 relative z-10">
         <div class="max-w-3xl mx-auto text-center">
-            <h1 class="text-4xl md:text-6xl font-bold text-balance mb-3 tWhite">Lakeland’s Commissary Kitchen:</h1>
-            <h2 class="text-4xl md:text-6xl font-bold text-balance mb-6 tWhite">Your Recipe for Success</h2>
+            <h1 class="text-4xl md:text-6xl font-bold whitespace-nowrap mb-3 tWhite">Lakeland’s Commissary Kitchen:</h1>
+            <h2 class="text-4xl md:text-6xl font-bold whitespace-normal mb-6 tWhite">Your Recipe for Success</h2>
             <p class="text-xl text-muted-foreground leading-relaxed mb-8 pWhite">Supporting Lakeland, Polk County, and Central Florida's food and beverage businesses with innovative solutions, expert guidance, and comprehensive support from A to Z.</p>
             <div class="flex sm:flex-row gap-4 justify-center">
                 <a href="#services"
