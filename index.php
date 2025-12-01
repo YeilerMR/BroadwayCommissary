@@ -36,6 +36,7 @@
     <script src="https://www.google.com/recaptcha/api.js?render=6LdOKx4sAAAAAFa7X3Lp-4coqXyEpHwOGXq_vKl5"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script>
         const mobileMenuBtn = document.getElementById('mobileMenuBtn');

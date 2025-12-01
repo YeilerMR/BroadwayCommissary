@@ -166,12 +166,13 @@ $year = date("Y");
                         const data = await response.json();
 
                         if (data.success) {
-                            console.log('Subscribed successfully!');
+                            showAlert('success', 'Subscribed successfully!');
                         } else {
-                            console.error('Error:', data.message);
+                            showAlert('error', data.message);
                         }
                     } catch (error) {
-                        console.error('Request failed:', error);
+                        showAlert('error', 'Request failed:', error);
+
                     }
                 });
         });
@@ -185,18 +186,30 @@ $year = date("Y");
         const email = emailInput.value.trim();
 
         if (!email) {
-            alert('Email not valid');
+            showAlert('error', 'Email not valid');
             emailInput.focus();
             return;
         }
 
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(email)) {
-            alert('Email format not valid');
+            showAlert('error', 'Email format not valid');
             emailInput.focus();
             return;
         }
 
         subscribeToNotifications(email);
     });
+
+    function showAlert(type, message) {
+        Swal.fire({
+            icon: type,
+            title: message,
+            toast: true,
+            position: 'bottom-end',
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true
+        });
+    }
 </script>

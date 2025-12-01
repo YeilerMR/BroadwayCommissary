@@ -275,16 +275,55 @@
                         const data = await response.json();
 
                         if (data.success) {
-                            console.log('Form submitted successfully!');
+                            showAlert('success', 'Form submitted successfully!');
                         } else {
-                            console.error('Validation errors:', data.errors);
+                            showAlert('error', 'Validation errors:', data.errors);
                         }
                     } catch (error) {
-                        console.error('Request failed:', error);
+                        showAlert('error', 'Request failed:', error);
                     }
                 });
         });
     }
+
+    function validateContactData(data) {
+        const errors = {};
+
+        if (!data.name || data.name.trim() === "") {
+            errors.name = "Name is required.";
+        }
+
+        if (!data.email || data.email.trim() === "") {
+            errors.email = "Email is required.";
+        }
+
+        if (!data.phone || data.phone.trim() === "") {
+            errors.phone = "Phone number is required.";
+        }
+
+        if (!data.businessType || data.businessType.trim() === "") {
+            errors.businessType = "Business type is required.";
+        }
+
+        if (!data.subject || data.subject.trim() === "") {
+            errors.subject = "Subject is required.";
+        }
+
+        if (!data.message || data.message.trim() === "") {
+            errors.message = "Message is required.";
+        }
+
+        if (!data.services || data.services.length === 0) {
+            errors.services = "Please select at least one service.";
+        }
+
+        if (!data.findUs || data.findUs.trim() === "") {
+            errors.findUs = "Please let us know how you found us.";
+        }
+
+        return Object.keys(errors).length > 0 ? errors : null;
+    }
+
 
     document.getElementById('contactForm').addEventListener('submit', function(e) {
         e.preventDefault();
@@ -300,9 +339,17 @@
             subject: formData.get('subject'),
             message: formData.get('message'),
             services: formData.getAll('services[]'),
-            ip_address: window.location.hostname
+            ip_address: window.location.hostname,
+            findUs: formData.get('findUs')
         };
 
+        const errors = validateContactData(data);
+
+        if (errors) {
+            const firstError = Object.values(errors)[0];
+            showAlert('error', firstError);
+            return;
+        }
         submitContactForm(data);
     });
 </script>
