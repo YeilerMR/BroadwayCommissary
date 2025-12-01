@@ -6,11 +6,11 @@
 // Load DB helper (provides DB::conn())
 require_once __DIR__ . '/../database/db.php';
 
-define('MAIL_HOST', 'smtp.gmail.com'); // or your SMTP server
+define('MAIL_HOST', 'smtp.gmail.com');
 define('MAIL_PORT', 587);
 define('MAIL_ENCRYPTION', 'tls');
-define('MAIL_USERNAME', 'adbvtest@gmail.com'); // Update with your email
-define('MAIL_PASSWORD', 'hymk bvzd tnbu akrb'); // Use app-specific password for Gmail
+define('MAIL_USERNAME', 'adbvtest@gmail.com'); 
+define('MAIL_PASSWORD', 'hymk bvzd tnbu akrb');
 define('MAIL_FROM_ADDRESS', 'adbvtest@gmail.com');
 define('MAIL_FROM_NAME', 'Lakeland Commissary');
 
@@ -29,9 +29,3 @@ define('APP_ENV', 'development'); // 'development' or 'production'
 define('RECAPTCHA_SECRET', '');
 // Score threshold for reCAPTCHA v3 (optional). If empty, only 'success' is checked.
 define('RECAPTCHA_SCORE_THRESHOLD', 0.5);
-
-// Email notifications subscriber file
-define('SUBSCRIBERS_FILE', __DIR__ . '/../../storage/subscribers.json');
-
-// Contact submissions file
-define('CONTACT_SUBMISSIONS_FILE', __DIR__ . '/../../storage/submissions.json');
