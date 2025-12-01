@@ -257,26 +257,33 @@
 
 <script>
     async function submitContactForm(formData) {
-        try {
-            const response = await fetch('http://localhost/BroadwayCommissary/api/contact/submit', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(formData)
-            });
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6LdOKx4sAAAAAFa7X3Lp-4coqXyEpHwOGXq_vKl5', {
+                    action: 'submit'
+                })
+                .then(async function(token) {
+                    formData.recaptcha_token = token;
+                    try {
+                        const response = await fetch('http://localhost/BroadwayCommissary/api/contact/submit', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify(formData)
+                        });
 
-            const data = await response.json();
+                        const data = await response.json();
 
-            if (data.success) {
-                console.log('Form submitted successfully!');
-                // Clear form or show success message
-            } else {
-                console.error('Validation errors:', data.errors);
-            }
-        } catch (error) {
-            console.error('Request failed:', error);
-        }
+                        if (data.success) {
+                            console.log('Form submitted successfully!');
+                        } else {
+                            console.error('Validation errors:', data.errors);
+                        }
+                    } catch (error) {
+                        console.error('Request failed:', error);
+                    }
+                });
+        });
     }
 
     document.getElementById('contactForm').addEventListener('submit', function(e) {

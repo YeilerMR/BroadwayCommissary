@@ -146,28 +146,37 @@ $year = date("Y");
 
 <script>
     async function subscribeToNotifications(email) {
-        try {
-            const response = await fetch('http://localhost/BroadwayCommissary/api/email/subscribe', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    email
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6LdOKx4sAAAAAFa7X3Lp-4coqXyEpHwOGXq_vKl5', {
+                    action: 'submit'
                 })
-            });
+                .then(async function(token) {
+                    try {
+                        const response = await fetch('http://localhost/BroadwayCommissary/api/email/subscribe', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({
+                                email,
+                                recaptcha_token: token
+                            })
+                        });
 
-            const data = await response.json();
+                        const data = await response.json();
 
-            if (data.success) {
-                console.log('Subscribed successfully!');
-            } else {
-                console.error('Error:', data.message);
-            }
-        } catch (error) {
-            console.error('Request failed:', error);
-        }
+                        if (data.success) {
+                            console.log('Subscribed successfully!');
+                        } else {
+                            console.error('Error:', data.message);
+                        }
+                    } catch (error) {
+                        console.error('Request failed:', error);
+                    }
+                });
+        });
     }
+
 
     document.getElementById('newsletter-form').addEventListener('submit', function(e) {
         e.preventDefault();

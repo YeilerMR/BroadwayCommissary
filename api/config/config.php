@@ -26,6 +26,6 @@ define('APP_ENV', 'development'); // 'development' or 'production'
 
 // reCAPTCHA configuration
 // Set your secret key here (from Google reCAPTCHA admin)
-define('RECAPTCHA_SECRET', '');
+define('RECAPTCHA_SECRET', '6LdOKx4sAAAAAEnYYqLdWnQuBQDkZDYnW5yoTETb');
 // Score threshold for reCAPTCHA v3 (optional). If empty, only 'success' is checked.
 define('RECAPTCHA_SCORE_THRESHOLD', 0.5);

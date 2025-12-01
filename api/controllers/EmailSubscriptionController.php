@@ -43,30 +43,30 @@ class EmailSubscriptionController
         }
 
         // Validate reCAPTCHA token
-        // $recaptchaToken = $input['recaptcha_token'] ?? '';
-        // $recaptchaResponse = Recaptcha::verify($recaptchaToken);
-        // // If google response has score, check threshold. Otherwise rely on success flag.
-        // $recaptchaOk = false;
-        // if (!empty($recaptchaResponse) && isset($recaptchaResponse['success']) && $recaptchaResponse['success'] === true) {
-        //     if (isset($recaptchaResponse['score'])) {
-        //         $threshold = RECAPTCHA_SCORE_THRESHOLD ?: 0.5;
-        //         if ($recaptchaResponse['score'] >= $threshold) {
-        //             $recaptchaOk = true;
-        //         }
-        //     } else {
-        //         $recaptchaOk = true;
-        //     }
-        // }
+        $recaptchaToken = $input['recaptcha_token'] ?? '';
+        $recaptchaResponse = Recaptcha::verify($recaptchaToken);
+        // If google response has score, check threshold. Otherwise rely on success flag.
+        $recaptchaOk = false;
+        if (!empty($recaptchaResponse) && isset($recaptchaResponse['success']) && $recaptchaResponse['success'] === true) {
+            if (isset($recaptchaResponse['score'])) {
+                $threshold = RECAPTCHA_SCORE_THRESHOLD ?: 0.5;
+                if ($recaptchaResponse['score'] >= $threshold) {
+                    $recaptchaOk = true;
+                }
+            } else {
+                $recaptchaOk = true;
+            }
+        }
 
-        // if (!$recaptchaOk) {
-        //     http_response_code(400);
-        //     echo json_encode([
-        //         'success' => false,
-        //         'message' => 'reCAPTCHA validation failed',
-        //         'recaptcha' => $recaptchaResponse
-        //     ]);
-        //     return;
-        // }
+        if (!$recaptchaOk) {
+            http_response_code(400);
+            echo json_encode([
+                'success' => false,
+                'message' => 'reCAPTCHA validation failed',
+                'recaptcha' => $recaptchaResponse
+            ]);
+            return;
+        }
 
         $email = $input['email'];
 

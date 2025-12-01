@@ -33,7 +33,7 @@
 
 
     <!-- Recaptcha -->
-    <!-- <script src="https://www.google.com/recaptcha/api.js?render=6LcoRNwrAAAAAMtKWFfyC5SRwo9Jh8zWAIxvgAmc"></script> -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdOKx4sAAAAAFa7X3Lp-4coqXyEpHwOGXq_vKl5"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
