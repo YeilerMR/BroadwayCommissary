@@ -28,6 +28,7 @@ CREATE TABLE IF NOT EXISTS contact_submissions (
     message TEXT NOT NULL,
     submitted_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     ip_address VARCHAR(45) NOT NULL,
+    findus VARCHAR(255) NOT NULL,
     
     INDEX idx_email (email),
     INDEX idx_submitted_at (submitted_at),
