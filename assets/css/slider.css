@@ -1,0 +1,69 @@
+.swiper-wrapper {
+  margin: 0 auto 30px;
+  box-sizing: border-box;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  background: oklch(0.45 0.1 135);
+  height: 14px;
+  width: 14px;
+}
+
+/* Small screens: hide navs and keep pagination */
+@media (max-width: 639px) {
+  .swiper-pagination { margin-top: 12px; }
+}
+
+.swiper-pagination { position: relative; z-index: 10; margin-top: 16px; }
+.swiper {
+    position: relative;
+    padding-left: 70px; /* space for left arrow */
+    padding-right: 70px; /* space for right arrow */
+}
+
+.swiper-wrapper {
+    margin: 0 auto 55px;
+    box-sizing: border-box;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    background: oklch(0.45 0.1 135);
+    height: 15px;
+    width: 15px;
+}
+
+.swiper .swiper-slide-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: oklch(0.45 0.1 135);
+    border-radius: 50%;
+    color: #fff;
+    transition: 0.2s ease;
+    z-index: 30;
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper .swiper-slide-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+.swiper-slide-button:hover {
+    background-color: oklch(0.65 0.1 135);
+}
+
+.swiper-button-prev { left: 18px; }
+.swiper-button-next { right: 18px; }
+
+/* Optional touch for bullets to keep them centered and below the slider */
+.swiper-pagination { position: relative; z-index: 10; margin-top: 16px; }
+
+@media (max-width: 640px) {
+    .swiper { padding-left: 16px; padding-right: 16px; }
+    .swiper .swiper-slide-button { display: none; }
+}
