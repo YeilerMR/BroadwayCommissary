@@ -89,7 +89,8 @@ class ContactFormController
             'subject' => $input['subject'],
             'message' => $input['message'],
             'submitted_at' => date('Y-m-d H:i:s'),
-            'ip_address' => $_SERVER['REMOTE_ADDR'] ?? 'unknown'
+            'ip_address' => $_SERVER['REMOTE_ADDR'] ?? 'unknown',
+            'findus' => $input['findUs']
         ];
 
         // Save to file
@@ -132,8 +133,9 @@ class ContactFormController
                     subject,
                     message,
                     ip_address,
+                    findus,
                     submitted_at
-                ) VALUES (?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?,?)
             ");
 
             if (!$stmt) {
@@ -142,13 +144,14 @@ class ContactFormController
             }
 
             $stmt->bind_param(
-                'sssssss',
+                'ssssssss',
                 $submission['name'],
                 $submission['email'],
                 $submission['phone'],
                 $submission['subject'],
                 $submission['message'],
                 $submission['ip_address'],
+                $submission['findus'],
                 $submission['submitted_at']
             );
 
