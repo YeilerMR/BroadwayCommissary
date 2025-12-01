@@ -38,73 +38,81 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
     <script>
-        const swiper = new Swiper('.swiper', {
-            loop: true,
-            grabCursor: true,
-            spaceBetween: 16,
-            speed: 900,
+        // Services Slider - Select only the first swiper (not testimonials)
+        const servicesSwiper = document.querySelector('.swiper:not(.testimonials-swiper)');
+        if (servicesSwiper) {
+            const swiper = new Swiper(servicesSwiper, {
+                loop: true,
+                grabCursor: true,
+                spaceBetween: 16,
+                speed: 900,
 
-            autoplay: {
-                delay: 4000,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-                dynamicBullets: true
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
+                autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: servicesSwiper.querySelector('.swiper-pagination'),
+                    clickable: true,
+                    dynamicBullets: true
+                },
+                navigation: {
+                    nextEl: servicesSwiper.querySelector('.swiper-button-next'),
+                    prevEl: servicesSwiper.querySelector('.swiper-button-prev'),
+                },
 
-            breakpoints: {
-                0: {
-                    slidesPerView: 1
-                },
-                620: {
-                    slidesPerView: 2
-                },
-                1024: {
-                    slidesPerView: 4
+                breakpoints: {
+                    0: {
+                        slidesPerView: 1
+                    },
+                    620: {
+                        slidesPerView: 2
+                    },
+                    1024: {
+                        slidesPerView: 4
+                    }
                 }
-            }
 
-        });
+            });
+        }
 
-        const testimonialsSwiper = new Swiper('.testimonials-swiper', {
-            loop: true,
-            grabCursor: true,
-            spaceBetween: 16,
-            speed: 900,
+        // Testimonials Slider - Explicitly select the testimonials swiper
+        const testimonialsContainer = document.querySelector('.testimonials-swiper');
+        if (testimonialsContainer) {
+            const testimonialsSwiper = new Swiper(testimonialsContainer, {
+                loop: true,
+                grabCursor: true,
+                spaceBetween: 16,
+                speed: 900,
 
-            autoplay: {
-                delay: 4000,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: '.testimonials-pagination',
-                clickable: true,
-                dynamicBullets: true
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            breakpoints: {
-                0: {
-                    slidesPerView: 1
+                autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false,
                 },
-                620: {
-                    slidesPerView: 2
+                pagination: {
+                    el: testimonialsContainer.querySelector('.testimonials-pagination'),
+                    clickable: true,
+                    dynamicBullets: true
                 },
-                1024: {
-                    slidesPerView: 3
+                navigation: {
+                    nextEl: testimonialsContainer.querySelector('.swiper-button-next'),
+                    prevEl: testimonialsContainer.querySelector('.swiper-button-prev'),
+                },
+
+                breakpoints: {
+                    0: {
+                        slidesPerView: 1
+                    },
+                    620: {
+                        slidesPerView: 2
+                    },
+                    1024: {
+                        slidesPerView: 3
+                    }
                 }
-            }
 
-        });
+            });
+        }
     </script>
 </body>
 
