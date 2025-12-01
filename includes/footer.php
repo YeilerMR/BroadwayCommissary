@@ -152,7 +152,7 @@ $year = date("Y");
                 })
                 .then(async function(token) {
                     try {
-                        const response = await fetch('http://localhost/BroadwayCommissary/api/email/subscribe', {
+                        const response = await fetch(APP_URL + '/api/email/subscribe', {
                             method: 'POST',
                             headers: {
                                 'Content-Type': 'application/json'

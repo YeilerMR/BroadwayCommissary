@@ -264,7 +264,7 @@
                 .then(async function(token) {
                     formData.recaptcha_token = token;
                     try {
-                        const response = await fetch('http://localhost/BroadwayCommissary/api/contact/submit', {
+                        const response = await fetch(APP_URL + '/api/contact/submit', {
                             method: 'POST',
                             headers: {
                                 'Content-Type': 'application/json'
