@@ -37,21 +37,12 @@
                         </div>
                     </div>
                 </div>
-                <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border shadow-sm py-6 swiper-slide overflow-hidden hover:shadow-lg transition-shadow">
-                    <div data-slot="card-content" class="flex flex-col justify-between p-6 h-full">
-                        <p class="text-muted-foreground leading-relaxed mb-4 italic">&quot;Their catering coordination service made our corporate events seamless. Professional, reliable, and always delivering quality.&quot;</p>
-                        <div class="mt-auto">
-                            <div class="font-semibold">Sarah Johnson</div>
-                            <div class="text-sm text-muted-foreground">Tech Corp Events Manager</div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
             <div class="swiper-pagination testimonials-pagination"></div>
 
-            <div class="swiper-slide-button swiper-button-prev testimonials-prev"></div>
-            <div class="swiper-slide-button swiper-button-next testimonials-next"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
         </div>
     </div>
 </section>
