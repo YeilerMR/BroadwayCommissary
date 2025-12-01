@@ -25,6 +25,7 @@
             <?php include 'includes/home.php'; ?>
             <?php include 'includes/services.php'; ?>
             <?php include 'includes/about.php'; ?>
+            <?php include 'includes/testimonials.php'; ?>
             <?php include 'includes/contact.php'; ?>
         </main>
         <?php include 'includes/footer.php'; ?>
@@ -47,15 +48,11 @@
                 delay: 4000,
                 disableOnInteraction: false,
             },
-
-            // If we need pagination
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
                 dynamicBullets: true
             },
-
-            // Navigation arrows
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
@@ -70,6 +67,40 @@
                 },
                 1024: {
                     slidesPerView: 4
+                }
+            }
+
+        });
+
+        const testimonialsSwiper = new Swiper('.testimonials-swiper', {
+            loop: true,
+            grabCursor: true,
+            spaceBetween: 16,
+            speed: 900,
+
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.testimonials-pagination',
+                clickable: true,
+                dynamicBullets: true
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            breakpoints: {
+                0: {
+                    slidesPerView: 1
+                },
+                620: {
+                    slidesPerView: 2
+                },
+                1024: {
+                    slidesPerView: 3
                 }
             }
 
