@@ -18,7 +18,7 @@ define('MAIL_FROM_NAME', 'Lakeland Commissary');
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', 'danielbv0415');
-define('DB_NAME', 'Lakeland Commissary');
+define('DB_NAME', 'lakeland_commissary');
 
 // Application settings
 define('APP_URL', 'http://localhost/BroadwayCommissary');
