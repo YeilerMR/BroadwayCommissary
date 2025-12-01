@@ -38,7 +38,48 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
     <script>
-        // Services Slider - Select only the first swiper (not testimonials)
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const desktopNav = document.getElementById('desktopNav');
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+
+        function updateNavDisplay() {
+            const isMobile = window.innerWidth < 768; 
+            
+            if (isMobile) {
+                desktopNav.style.display = 'none';
+                mobileMenuBtn.style.display = 'flex';
+            } else {
+                desktopNav.style.display = 'flex';
+                mobileMenuBtn.style.display = 'none';
+                mobileMenu.style.display = 'none';
+            }
+        }
+
+        updateNavDisplay();
+
+        window.addEventListener('resize', updateNavDisplay);
+
+        mobileMenuBtn.addEventListener('click', () => {
+            if (mobileMenu.style.display === 'none') {
+                mobileMenu.style.display = 'block';
+            } else {
+                mobileMenu.style.display = 'none';
+            }
+        });
+
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.style.display = 'none';
+            });
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('header')) {
+                mobileMenu.style.display = 'none';
+            }
+        });
+
         const servicesSwiper = document.querySelector('.swiper:not(.testimonials-swiper)');
         if (servicesSwiper) {
             const swiper = new Swiper(servicesSwiper, {
@@ -76,7 +117,6 @@
             });
         }
 
-        // Testimonials Slider - Explicitly select the testimonials swiper
         const testimonialsContainer = document.querySelector('.testimonials-swiper');
         if (testimonialsContainer) {
             const testimonialsSwiper = new Swiper(testimonialsContainer, {
