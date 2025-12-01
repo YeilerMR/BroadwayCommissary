@@ -1,9 +1,9 @@
 -- Crear base de datos (opcional, si aún no existe)
-CREATE DATABASE IF NOT EXISTS broadway_commissary 
+CREATE DATABASE IF NOT EXISTS lakeland_commissary
 CHARACTER SET utf8mb4 
 COLLATE utf8mb4_unicode_ci;
 
-USE broadway_commissary;
+USE lakeland_commissary;
 
 -- Tabla para suscriptores de correo electrónico
 CREATE TABLE IF NOT EXISTS email_subscribers (
