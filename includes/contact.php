@@ -258,7 +258,7 @@
 <script>
     async function submitContactForm(formData) {
         grecaptcha.ready(function() {
-            grecaptcha.execute('6LdOKx4sAAAAAFa7X3Lp-4coqXyEpHwOGXq_vKl5', {
+            grecaptcha.execute('6LfbSCEsAAAAAGFI2yzsBjxjrja5d1nj5qn7nGh9', {
                     action: 'submit'
                 })
                 .then(async function(token) {
